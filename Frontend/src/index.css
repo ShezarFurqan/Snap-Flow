@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+.active {
+    background-color: #111428;
+    color: white;
+    border-radius: 20px;
+}
+
+.outfit-900 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+.outfit-800 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+.outfit-700 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.outfit-600 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.outfit-500 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.outfit-400 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.outfit-300 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.stroke-text {
+    -webkit-text-stroke: 10px #00ffff;
+}
+
+
+::-webkit-scrollbar {
+  width: 8px;
+ /* Horizontal ke liye height use hoga */
+}
+
+/* Scrollbar track (background part) */
+::-webkit-scrollbar-track {
+  background: none; 
+  border-radius: 10px;
+}
+
+/* Scrollbar thumb (jo move hota hai) */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #4F2DB8, #2A1F66);
+  border-radius: 10px;
+}
+
+/* Hover effect */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #4F2DB8;
+  transition: all;
+}
+
+
