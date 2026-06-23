@@ -18,43 +18,16 @@ Snapflow is a full-stack, feature-rich social media platform designed with a mod
 
 ## 🛠️ Tech Stack
 
-**Frontend:**
+
+### Frontend
 - React.js (Component-driven architecture)
 - Tailwind CSS (Modern, highly responsive styling)
 
-**Backend & Database:**
+### Backend & Database
 - Node.js & Express.js (Scalable RESTful API development)
 - MongoDB (Flexible NoSQL data modeling for social graphs)
 
 ---
-
-## ⚙️ Installation & Setup
-
-1. **Clone the repository:**
 ```bash
-   git clone [https://github.com/ShezarFurqan/Snap-Flow.git](https://github.com//ShezarFurqan/Snap-Flow.git)
-   cd snapflow
-Install Frontend Dependencies:
-
-Bash
-   cd client
-   npm install
-Install Backend Dependencies:
-
-Bash
-   cd ../server
-   npm install
-Set up Environment Variables:
-Create a .env file in the server directory and configure your MongoDB URI, Port, and any other necessary credentials. (Do not commit this file to GitHub).
-
-Run the Application:
-
-Bash
-   # Start backend server
-   npm start (or nodemon app.js)
-   
-   # Start frontend client
-   cd ../client
-   npm run dev (or npm start)
-📄 License
-This project is for portfolio purposes. Code architecture is confidential and protected.
+git clone https://github.com/ShezarFurqan/Snap-Flow.git
+cd Snap-Flow
